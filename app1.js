@@ -3,11 +3,9 @@ input: string (prompt)
 output: string (alert)
 */
 
-//Set the answer
-//alert('Welcome');
-var answer;
 //Define Variables First
-var name = prompt("What is your name?");
+var name = prompt("Welcome! What is your name?");
+var answer;
 var input; 
 var count = 0;
 var guesses = {};
